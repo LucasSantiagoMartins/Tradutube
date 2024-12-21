@@ -1,0 +1,48 @@
+# Arquivos de build
+bin/
+obj/
+
+# Configurações do usuário no Visual Studio
+*.user
+*.rsuser
+*.suo
+.vscode/
+
+# Logs, dados temporários e cache
+*.log
+*.tlog
+*.cache
+*.tmp
+*.ide
+
+# Configurações de build locais
+*.psess
+*.userosscache
+.vs/
+
+# Diretórios gerados automaticamente
+.idea/
+_ReSharper/
+*.pyc
+*.ipch
+*.vsix
+.project
+.settings/
+
+# Configurações do Rider e JetBrains
+.idea/
+*.sln.iml
+
+# Configurações do sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Arquivos gerados pelo Docker
+docker-compose.override.yml
+**/Dockerfile*
+*.dockerignore
+
+# Arquivos do sistema
+*.swp
+*~

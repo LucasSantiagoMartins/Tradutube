@@ -1,0 +1,6 @@
+@Tradutube_HostAddress = http://localhost:5264
+
+GET {{Tradutube_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
