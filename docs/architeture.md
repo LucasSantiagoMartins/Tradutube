@@ -113,16 +113,15 @@
   - Enviar notificações para os criadores ou usuários sobre o status de processamento.
 
 
-## 5. Tecnologias Sugeridas
+## 5. Tecnologias
 
-- **Frontend**: Flutter (para versão móvel) ou React (para versão web).
+- **Frontend**: Flutter
 - **Backend**: C# com **ASP.NET Core** para a API.
 - **Banco de Dados**: PostgreSQL.
 - **Armazenamento de Áudio**: AWS S3 ou Google Cloud Storage.
 - **APIs de TTS**: ElevenLabs, Google Cloud TTS, Amazon Polly.
 - **Transcrição de Áudio**: Whisper (OpenAI), Deepgram, AssemblyAI.
 - **APIs de Tradução**: Google Translate, DeepL.
-
 
 ## 6. Considerações Finais
 
