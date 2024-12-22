@@ -83,7 +83,7 @@
     |    Tradutube.Domain       | Aqui ficam os modelos principais do sistema                           |
     |                           |                                                                       |
     |---------------------------|-----------------------------------------------------------------------|
-    |-> Entities                | Entidades do domínio (ex. Vídeo, Usuáio, Tradução)                    |
+    |-> Entities                | Entidades do domínio (ex. Vídeo, Usuário, Tradução)                    |
     |---------------------------|-----------------------------------------------------------------------|
     |-> ValueObjects            | Objectos que representam valores imutávies (eg. Idioma, URL)          |
     |---------------------------|-----------------------------------------------------------------------|
