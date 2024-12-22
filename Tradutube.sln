@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tradutube", "Tradutube.csproj", "{DA4405E9-A908-4CEA-9D03-079197029281}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AA943601-B45D-4C50-A90A-65E5F49F5069}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api", "src\Api\Api.csproj", "{09324BBB-FC36-49FA-9C9E-C0BEAA9DD6F0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +13,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DA4405E9-A908-4CEA-9D03-079197029281}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DA4405E9-A908-4CEA-9D03-079197029281}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DA4405E9-A908-4CEA-9D03-079197029281}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DA4405E9-A908-4CEA-9D03-079197029281}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09324BBB-FC36-49FA-9C9E-C0BEAA9DD6F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09324BBB-FC36-49FA-9C9E-C0BEAA9DD6F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09324BBB-FC36-49FA-9C9E-C0BEAA9DD6F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09324BBB-FC36-49FA-9C9E-C0BEAA9DD6F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{09324BBB-FC36-49FA-9C9E-C0BEAA9DD6F0} = {AA943601-B45D-4C50-A90A-65E5F49F5069}
+	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {F7993B41-FD1B-4F46-9321-7FA7215B6548}
+		SolutionGuid = {CE84170B-5289-406F-869D-D5E902D811E0}
 	EndGlobalSection
 EndGlobal
