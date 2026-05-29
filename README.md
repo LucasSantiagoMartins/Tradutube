@@ -2,48 +2,25 @@
 
 # TRADUTUBE
 
-Focuses on converting youtube videos 
-generating the tradution in audio with a realistic
-voice. 
+O TRADUTUBE é uma plataforma focada em transformar vídeos do YouTube em áudio traduzido com vozes realistas geradas por IA.
 
-# ``THE END OF SUBTITLES``
+Em vez de depender apenas de legendas, a plataforma permite que pessoas assistam conteúdos em seu próprio idioma de forma mais natural, imersiva e acessível.
 
+# `THE END OF SUBTITLES (O FIM DAS LEGENDAS)`
 
-## Installation
+## Sobre o Projeto
 
-1. Clone this repository:
+O TRADUTUBE nasceu com a visão de mudar a forma como as pessoas consomem conteúdos internacionais na internet.
 
-```
-    git clone https://github.com/lucasSantiagoCody/Tradutube.git
-```
+Milhões de pessoas assistem vídeos utilizando legendas porque não conseguem compreender o idioma original do conteúdo. O objetivo do TRADUTUBE é eliminar essa barreira através da geração automática de dublagem com vozes realistas utilizando inteligência artificial.
 
-2. Create and activate the development environment
+A proposta é oferecer uma experiência mais próxima de um conteúdo nativo, tornando vídeos educacionais, entretenimento e conteúdos informativos muito mais acessíveis para qualquer pessoa.
 
-Windows
+### Proposta da Plataforma
 
-```
-    python -m venv venv
-```
-```
-    cd venv/scripts && activate
-```
-Linux
+* Traduzir vídeos do YouTube automaticamente
+* Gerar áudio traduzido com vozes realistas
+* Melhorar a acessibilidade de conteúdos globais
+* Oferecer uma experiência mais imersiva do que legendas
+* Tornar conteúdos educacionais e de entretenimento mais acessíveis
 
-```
-    python3 -m venv venv
-```
-```
-    source ./venv/bin/activate
-```
-
-3. Install dependencies
-
-Windows
-```
-    pip install -r requirements.txt
-```
-
-Linux
-```
-    pip3 install -r requirements.txt
-```
